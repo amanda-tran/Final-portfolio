@@ -1,0 +1,16 @@
+#picture {
+text-align: center;
+border-radius: 10%;
+
+}
+
+.container {
+    text-align: center;
+}
+
+.form-area {
+    text-align: center;
+    margin: auto;
+    padding-left: 50px;
+    max-width: 100%;
+}
