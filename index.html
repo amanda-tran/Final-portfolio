@@ -9,13 +9,14 @@
         crossorigin="anonymous">
 
 
-    <title>Document</title>
+    <title>Amanda Tran's Portfolio
+    </title>
 </head>
 <body>
 
 <!--NAVBAR-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Amanda's Portfolio</a>
+    <a class="navbar-brand" href="index.html">Amanda's Portfolio</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -38,8 +39,37 @@
 <div class="container">
     <div class="row">
         <div class="col-sm">
-            <img id="picture" class="border" src="./assets/images/otter.jpg" alt="otter" />
+<!--SLIDESHOW-->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+<img class="a-block w-20" src="./assets/images/otter.jpg" alt="First slide">
         </div>
+        <div class="carousel-item">
+<img class="a-block w-20" src="./assets/images/otter.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+<img class="a-block w-20" src="./assets/images/otter.jpg" alt="Third slide">
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<!--            <img id="picture" class="border" src="./assets/images/otter.jpg" alt="otter" />
+        </div>-->
+<br>
+<br>
         <div class="col-sm">
            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus quibusdam quod amet cum voluptas esse dolor iste exercitationem dolorem. Dignissimos delectus dolorem officia cupiditate accusantium vitae magnam. Totam, porro consequuntur?
            </p> 
@@ -49,10 +79,17 @@
         </div>
     </div>
 </div>
+<br>
+<br>
+<br>
 
+<!--Footer-->
 
-
-
+<div class="main">
+    <h1>Amanda Tran</h1>
+    <p>Web developer. HTML. Javascript. C++.</p>
+</div>
+<!--Footer-->
 
 
 
